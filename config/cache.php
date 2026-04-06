@@ -126,29 +126,4 @@ return [
     */
 
     'serializable_classes' => false,
-
-    /*
-    |--------------------------------------------------------------------------
-    | CORS support
-    |--------------------------------------------------------------------------
-    | When this option is set to true, the CORS headers will be added to the
-    | cache response, allowing cross-origin requests to access cached responses.
-    | This is useful when your application serves cached content to clients from different origins.
-    | Note: Enabling this option may have security implications, so ensure that you understand the risks before using it.
-    |
-    */
-    'paths' => ['api/*'],
-
-    'allowed_methods' => ['*'],
-
-    'allowed_origins' => ['*'],
-
-    'allowed_headers' => ['*'],
-
-    'exposed_headers' => ['Authorization'],
-
-    'max_age' => 0,
-
-    'supports_credentials' => false,
-
 ];
